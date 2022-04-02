@@ -1,0 +1,56 @@
+.navbar {
+    background: rgba(128,128,128, 0.4);
+    height: 3.5rem;
+    width: 100%;
+    display: block;
+}
+
+.navbar-left * {
+    float: left;
+    color: white;
+    display: inline-block;
+}
+.navbar-brand {
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    min-width: 40px;
+}
+
+.navbar-name {
+    padding-left: 20px;
+    font-weight: 900;
+    margin: 0px;
+    padding-top: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.navbar-right * {
+    float: right;
+    color: white;
+    display: inline-block;
+}
+
+.navbar-routes li {
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+
+.navbar-routes li:hover {
+    color: black;
+    background-color: white;
+    cursor: grab;
+
+    border: 1px solid white;
+}
+
+@media (max-width: 767px) {
+    .navbar-name {
+        display: none;
+    }
+}

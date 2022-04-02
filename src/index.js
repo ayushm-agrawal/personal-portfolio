@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ParticlesBg from "particles-bg";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+      <ParticlesBg color="#ffffff" type="cobweb" bg={true} />
   </React.StrictMode>,
   document.getElementById('root')
 );
