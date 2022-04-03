@@ -19,7 +19,7 @@ class About extends Component {
                 </div>
 
                 <div className='about-intro'>
-                    <h2>{this.randomQuoteToDisplay[0]} -  <span style={{color: 'red'}}>{this.randomQuoteToDisplay[1]}</span></h2>
+                    <h2>{this.randomQuoteToDisplay[0]} -  <span style={{color: '#f6a231'}}>{this.randomQuoteToDisplay[1]}</span></h2>
                 </div>
 
                 <div className='about-experience'>
