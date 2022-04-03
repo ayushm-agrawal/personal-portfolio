@@ -1,0 +1,106 @@
+.about {
+    color: white;
+    background-color:  rgba(128,128,128, 0.2);
+    margin: 2%;
+    padding: 2%;
+    transition: all 1s ease-in;
+}
+
+.about-image {
+    /* the magic */
+    display: block;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    -ms-border-radius: 250px;
+    -o-border-radius: 250px;
+    border-radius: 250px;
+    /* the rest */
+    position: relative; /* for the overlay later */
+    text-align: center;
+    margin: 0px auto 10px;
+    border: 3px solid #FFF;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3),inset 0px 3px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.about-experience {
+    display: inline-grid;
+}
+.about-experience .item {
+    display: -webkit-box;
+}
+
+.about-experience .item-image {
+    /* the magic */
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    /* the rest */
+    position: relative; /* for the overlay later */
+    /*text-align: center;*/
+    margin: 0px 20px 10px;
+    background-color: white;
+    border: 3px solid #FFF;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3),inset 0px 3px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about-experience .item-image img {
+    max-width: 100%;
+    height: auto;
+    /*vertical-align: middle;*/
+    border: 0;
+}
+
+.about-experience .item > p{
+    font-weight: bold;
+    font-size: large;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-image {
+        /* the magic */
+        display: block;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        -ms-border-radius: 150px;
+        -o-border-radius: 150px;
+        border-radius: 150px;
+        /* the rest */
+        position: relative; /* for the overlay later */
+        text-align: center;
+        margin: 0px auto 10px;
+        border: 3px solid #FFF;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3),inset 0px 3px 8px rgba(0,0,0,0.3);
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .about-experience .item-image {
+        display: inline-flex;
+    }
+    .about-experience .item {
+        display: block;
+    }
+}
