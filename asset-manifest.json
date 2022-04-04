@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.a76431d2.css",
-    "main.js": "/static/js/main.90417c31.js",
+    "main.css": "/static/css/main.eedabf40.css",
+    "main.js": "/static/js/main.363a8f92.js",
     "static/js/415.7c43d319.chunk.js": "/static/js/415.7c43d319.chunk.js",
     "static/js/787.da29b98f.chunk.js": "/static/js/787.da29b98f.chunk.js",
     "static/media/ayush-color.jpeg": "/static/media/ayush-color.687da186ad20d0d7bba2.jpeg",
     "static/media/university-of-nebraska.png": "/static/media/university-of-nebraska.8854ff86737786b06ccb.png",
+    "static/media/404.gif": "/static/media/404.ef269a1054bc08e1291e.gif",
     "static/media/openmined.png": "/static/media/openmined.17082af284cbad136d54.png",
     "static/media/outlook.png": "/static/media/outlook.6f48b8a7308e9c533db0.png",
     "static/media/brand-transparent.png": "/static/media/brand-transparent.31b1dbc6a10991df86d5.png",
@@ -13,13 +14,13 @@
     "static/media/ayush-thinking.jpeg": "/static/media/ayush-thinking.2fe7e298ba5ca1e7fadc.jpeg",
     "index.html": "/index.html",
     "static/media/google-scholar.svg": "/static/media/google-scholar.77a11d106cc02cc2562625139f84cb0e.svg",
-    "main.a76431d2.css.map": "/static/css/main.a76431d2.css.map",
-    "main.90417c31.js.map": "/static/js/main.90417c31.js.map",
+    "main.eedabf40.css.map": "/static/css/main.eedabf40.css.map",
+    "main.363a8f92.js.map": "/static/js/main.363a8f92.js.map",
     "415.7c43d319.chunk.js.map": "/static/js/415.7c43d319.chunk.js.map",
     "787.da29b98f.chunk.js.map": "/static/js/787.da29b98f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a76431d2.css",
-    "static/js/main.90417c31.js"
+    "static/css/main.eedabf40.css",
+    "static/js/main.363a8f92.js"
   ]
 }
