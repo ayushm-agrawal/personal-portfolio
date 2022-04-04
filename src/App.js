@@ -2,11 +2,12 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import React from "react";
 import About from "./components/About";
-import {BrowserRouter, HashRouter, Navigate, Route, Routes} from "react-router-dom";
+import {HashRouter, Navigate, Redirect, Route, Routes} from "react-router-dom";
 import Research from "./components/Research";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
 import Particles from "react-tsparticles";
+import NotFoundPage from "./components/NotFoundPage";
 
 
 
@@ -43,11 +44,12 @@ function App() {
             <HashRouter>
                 <Navbar/>
                 <Routes>
-                    <Route path="/" element={<Navigate to="/about" />}/>
-                    <Route path="/about" element={<About />} />
-                    <Route path="/research" element={<Research />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/blog" element={<Blog/>} />
+                        <Route path="/" element={<Navigate to="/about" />}/>
+                        <Route path="/about" element={<About />} />
+                        <Route path="/research" element={<Research />} />
+                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/blog" element={<Blog/>} />
+                        <Route component={NotFoundPage} />
                 </Routes>
             </HashRouter>
 
