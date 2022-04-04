@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.f82d1dea.css",
+    "main.js": "/personal-portfolio/static/js/main.7f0b40b4.js",
+    "static/js/415.7c43d319.chunk.js": "/personal-portfolio/static/js/415.7c43d319.chunk.js",
+    "static/js/787.da29b98f.chunk.js": "/personal-portfolio/static/js/787.da29b98f.chunk.js",
+    "static/media/ayush-color.jpeg": "/personal-portfolio/static/media/ayush-color.687da186ad20d0d7bba2.jpeg",
+    "static/media/university-of-nebraska.png": "/personal-portfolio/static/media/university-of-nebraska.8854ff86737786b06ccb.png",
+    "static/media/openmined.png": "/personal-portfolio/static/media/openmined.17082af284cbad136d54.png",
+    "static/media/brand-transparent.png": "/personal-portfolio/static/media/brand-transparent.31b1dbc6a10991df86d5.png",
+    "static/media/MCT.png": "/personal-portfolio/static/media/MCT.fbe512e16cf86577517c.png",
+    "static/media/ayush-thinking.jpeg": "/personal-portfolio/static/media/ayush-thinking.2fe7e298ba5ca1e7fadc.jpeg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.f82d1dea.css.map": "/personal-portfolio/static/css/main.f82d1dea.css.map",
+    "main.7f0b40b4.js.map": "/personal-portfolio/static/js/main.7f0b40b4.js.map",
+    "415.7c43d319.chunk.js.map": "/personal-portfolio/static/js/415.7c43d319.chunk.js.map",
+    "787.da29b98f.chunk.js.map": "/personal-portfolio/static/js/787.da29b98f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f82d1dea.css",
+    "static/js/main.7f0b40b4.js"
+  ]
+}
