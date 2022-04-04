@@ -17,4 +17,9 @@ function handleHamburgerClick(event) {
 
 }
 
-export {handleNavClick,handleHamburgerClick};
+function handleFormSubmit(event) {
+    console.log("Button Clicked");
+    console.log(event.currentTarget);
+}
+
+export {handleNavClick,handleHamburgerClick, handleFormSubmit};

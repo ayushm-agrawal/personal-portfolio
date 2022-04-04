@@ -1,4 +1,40 @@
 .contact {
     color: white;
-    background-color: darkgreen;
+    background-color:  rgba(128,128,128, 0.2);
+    margin: 2%;
+    padding: 2%;
+    transition: all 1s ease-in;
+}
+
+.contact h1 {
+    color: #f6a231;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form form input {
+    padding: 5%;
+    width: 250px;
+    margin-bottom: 10%;
+}
+
+.textfield__label {
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+.contact-form{
+    background-color: #f6a231;
+    display: inline-block;
+    border-radius: 10px;
+    justify-content: center;
+    width: 50%;
+}
+
+.contact-form p {
+    font-weight: 600;
+    font-size: larger;
 }

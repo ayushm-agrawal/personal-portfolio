@@ -3,9 +3,17 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
   padding: 0;
-  /*overflow: hidden;*/
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
 }
 
 hr {

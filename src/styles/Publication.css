@@ -64,6 +64,10 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
+
+    .card:hover {
+        transform: none;
+    }
     .header {
         height: 25%;
         padding: 1.5%;
