@@ -18,10 +18,10 @@ function App() {
                 canvasClassName="particles"
                 options={{
                     fullScreen: {
-                        enable: true,
-                        zIndex: -1000
+                        enable: true
                     },
                 }}
+                style={{opacity: "0.5"}}
                 params={{
                     fpsLimit: 60,
 
