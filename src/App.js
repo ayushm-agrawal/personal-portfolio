@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import React from "react";
 import About from "./components/About";
-import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
+import {BrowserRouter, HashRouter, Navigate, Route, Routes} from "react-router-dom";
 import Research from "./components/Research";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
@@ -21,7 +21,7 @@ function App() {
                         enable: true
                     },
                 }}
-                style={{opacity: "0.5"}}
+                style={{opacity: "0.3"}}
                 params={{
                     fpsLimit: 60,
 
@@ -40,7 +40,7 @@ function App() {
                     }
                 }}
             />
-            <BrowserRouter>
+            <HashRouter>
                 <Navbar/>
                 <Routes>
                     <Route path="/" element={<Navigate to="/about" />}/>
@@ -49,7 +49,7 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/blog" element={<Blog/>} />
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
 
             {/*<About/>*/}
             {/*<ParticlesBg color="#ffffff" type="cobweb" bg={true} />*/}
