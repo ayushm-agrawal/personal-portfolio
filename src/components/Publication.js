@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import "../styles/Publication.css"
-import ManifoldComputing from "../resources/manifold-computing.jpeg"
+import ManifoldComputing from "../resources/MCT.png"
 import OpenMined from "../resources/openmined.png"
 
 class Publication extends Component {

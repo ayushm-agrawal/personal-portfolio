@@ -1,12 +1,12 @@
 import './App.css';
 import Navbar from "./components/Navbar";
-import ParticlesBg from "particles-bg";
 import React from "react";
 import About from "./components/About";
 import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import Research from "./components/Research";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
+import Particles from "react-tsparticles";
 
 
 
@@ -14,6 +14,32 @@ function App() {
 
   return (
         <div className="App">
+            <Particles
+                canvasClassName="particles"
+                options={{
+                    fullScreen: {
+                        enable: true,
+                        zIndex: -1000
+                    },
+                }}
+                params={{
+                    fpsLimit: 60,
+
+                    particles: {
+                        color: {
+                            value: "#fff"
+                        },
+                        links: {
+                            enable: true,
+                            color: "#fff",
+                            distance: 150
+                        },
+                        move: {
+                            enable: true
+                        }
+                    }
+                }}
+            />
             <BrowserRouter>
                 <Navbar/>
                 <Routes>
@@ -26,7 +52,8 @@ function App() {
             </BrowserRouter>
 
             {/*<About/>*/}
-            <ParticlesBg color="#ffffff" type="cobweb" bg={true} />
+            {/*<ParticlesBg color="#ffffff" type="cobweb" bg={true} />*/}
+
         </div>
 
   );

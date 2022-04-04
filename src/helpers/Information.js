@@ -1,5 +1,5 @@
 import UniversityLogo from "../resources/university-of-nebraska.png"
-import ManifoldLogo from "../resources/manifold-computing.jpeg"
+import ManifoldLogo from "../resources/MCT.png"
 import OpenMinedLogo from "../resources/openmined.png"
 
 const researchAreasOfInterest = 'Computer Vision, Interpretability, Natural Language Processing, Fundamental Machine Learning, ...';

@@ -41,3 +41,14 @@
     font-weight: bold;
     color: #f6a231;
 }
+
+.card {
+    flex-shrink: 0;
+    width: 29vw;
+    height: 47vh;
+    border-radius: 10px;
+    margin-left: 19px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

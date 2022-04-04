@@ -3,7 +3,9 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: all 1s ease-in-out;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
 }
 
 hr {
@@ -13,9 +15,9 @@ hr {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
-.particles-bg-canvas-self{
-  background: #171515;
-}
+/*.particles-bg-canvas-self{*/
+/*  background: #171515;*/
+/*}*/
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

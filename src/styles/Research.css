@@ -30,17 +30,7 @@
     flex-flow: row;
     overflow-x: scroll;
     width: 100%;
-    padding: 20px 0;
+    padding: 24px 0;
 
 }
 
-.card {
-    flex-shrink: 0;
-    width: 29vw;
-    height: 47vh;
-    border-radius: 10px;
-    margin-left: 19px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
