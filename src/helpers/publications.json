@@ -1,0 +1,32 @@
+[
+  {
+    "key": 0,
+    "affiliation": "Manifold",
+    "name": "Investigating Learning in Deep Neural Networks using Layer-Wise Weight Change",
+    "authors": "Ayush Manish Agrawal, Atharva Tendle, Harshvardhan Sikka, Sahib Singh, Amr Kayid",
+    "published_date": "2021",
+    "conference": "SAI Conference",
+    "publisher": "Springer, Cham",
+    "url": "https://arxiv.org/pdf/2011.06735.pdf"
+  },
+  {
+    "key": 1,
+    "affiliation": "OpenMined",
+    "name": "FedPerf: A Practitioners’ Guide to Performance of Federated Learning Algorithms",
+    "authors": "Ajinkya Mulay, Baye Gaspard, Rakshit Naidu, Santiago Gonzalez-Toral, S Vineeth, Tushar Semwal, Ayush Manish Agrawal",
+    "published_date": "2021",
+    "conference": "NeurIPS 2020 Workshop on Pre-registration in Machine Learning",
+    "publisher": "PMLR",
+    "url": "http://proceedings.mlr.press/v148/mulay21a/mulay21a.pdf"
+  },
+  {
+    "key": 2,
+    "affiliation": "Manifold",
+    "name": "WeightScale: Interpreting Weight Change in Neural Networks",
+    "authors": "Ayush Manish Agrawal, Atharva Tendle, Harshvardhan Sikka, Sahib Singh",
+    "published_date": "Not Published",
+    "conference": "",
+    "publisher": "",
+    "url": "https://arxiv.org/pdf/2107.07005.pdf"
+  }
+]

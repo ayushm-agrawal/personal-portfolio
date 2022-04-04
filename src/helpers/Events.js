@@ -2,12 +2,12 @@
 function handleNavClick(event) {
     document.querySelectorAll('.link').forEach((item) => item.classList.remove('active'))
     event.currentTarget.classList.add('active');
-    handleHamburgerClick(event);
+    const navItems = document.getElementsByClassName('nav-item-mobile')[0];
+    navItems.style.display = 'none';
 }
 
 function handleHamburgerClick(event) {
     const navItems = document.getElementsByClassName('nav-item-mobile')[0];
-    console.log(navItems)
     if (navItems.style.display === 'none') {
         navItems.style.display = 'unset';
     }

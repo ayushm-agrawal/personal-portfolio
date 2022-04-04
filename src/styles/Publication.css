@@ -1,0 +1,43 @@
+.card {
+    /*border: 2px solid;*/
+    /*border-image: linear-gradient(to right, grey 25%, rgb(246, 162, 49) 25%, rgb(246, 162, 49) 100%,grey 100%, grey 75%, grey 75%) 5;*/
+    transition: all .2s ease-in-out;
+    background-color: white;
+    position: relative;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 4px 0 15px -4px black, -6px 16px 19px -3px black;
+    transform: scale(1.1);
+    z-index: 1000;
+}
+
+.header {
+    height: 30%;
+    padding: 1%;
+    /*box-shadow: 0px 1px 6px black;*/
+}
+
+.header .name{
+    /*text-transform: uppercase;*/
+    font-weight: 600;
+}
+
+.information p {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.information span {
+    font-weight: bold;
+    color: #f6a231;
+}

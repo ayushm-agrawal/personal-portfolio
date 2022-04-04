@@ -1,7 +1,7 @@
 import '../styles/Navbar.css'
 import React, {Component} from "react";
 import BrandTransparent from "../resources/brand-transparent.png"
-import {handleNavClick,handleHamburgerClick} from "../events/Events";
+import {handleNavClick,handleHamburgerClick} from "../helpers/Events";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars, faXmark} from "@fortawesome/free-solid-svg-icons";
 import NavItems from "./NavItems";

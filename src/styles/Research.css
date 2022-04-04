@@ -1,4 +1,46 @@
 .research {
     color: white;
-    background-color: midnightblue;
+    background-color:  rgba(128,128,128, 0.2);
+    margin: 2%;
+    padding: 2%;
+    transition: all 1s ease-in;
+}
+
+.research h1 {
+    color: #f6a231;
+}
+
+.research-areas p {
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+.research-publications p {
+    color: black;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.card-container {
+    display: inline-flex;
+    flex-flow: row;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 20px 0;
+
+}
+
+.card {
+    flex-shrink: 0;
+    width: 29vw;
+    height: 47vh;
+    border-radius: 10px;
+    margin-left: 19px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }

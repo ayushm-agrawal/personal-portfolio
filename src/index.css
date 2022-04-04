@@ -6,6 +6,13 @@ body {
   transition: all 1s ease-in-out;
 }
 
+hr {
+  width: 50%;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
 .particles-bg-canvas-self{
   background: #171515;
 }

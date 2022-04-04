@@ -17,4 +17,16 @@ function getRandom(array) {
     return array[Math.floor(Math.random() * array.length)]
 }
 
-export {getRandomHeaderImage, getRandomQuote}
+function experienceDisplay(array) {
+    return (
+        <div key= {array[0]} className='item'>
+            <div className='item-image'>
+                <img src={array[1]} alt={array[2]}/>
+            </div>
+
+            <p><span style={{color: array[4]}}>({array[3]})</span> {array[5]}</p>
+        </div>
+    )
+}
+
+export {getRandomHeaderImage, getRandomQuote, experienceDisplay}
