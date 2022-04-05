@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import React from "react";
 import About from "./components/About";
-import {HashRouter, Navigate, Redirect, Route, Routes} from "react-router-dom";
+import {HashRouter, Navigate, Route, Routes} from "react-router-dom";
 import Research from "./components/Research";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";

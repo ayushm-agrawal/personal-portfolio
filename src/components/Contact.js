@@ -4,9 +4,6 @@ import Socials from "./Socials";
 import {contactCollaboration} from "../helpers/Information";
 
 class Contact extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
             <div className='contact'>

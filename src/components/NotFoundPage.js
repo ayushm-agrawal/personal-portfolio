@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import NotFound from "../resources/404.gif";
-import {Link} from "@mui/material";
 import "../styles/NotFoundPage.css";
+import {Link} from "react-router-dom";
 
 class NotFoundPage extends Component {
     render() {

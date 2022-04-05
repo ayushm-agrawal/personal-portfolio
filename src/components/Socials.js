@@ -15,22 +15,22 @@ class Socials extends Component {
     render() {
         return (
             <div className="social-container">
-                <a href={socialUrls.twitter} target="_blank" rel="noreferrer" className="social-button twitter">
+                <a href={socialUrls.twitter} target="_blank" rel="noopener noreferrer" className="social-button twitter">
                     <FontAwesomeIcon className="fa" icon={faTwitter} size='3x'/>
                 </a>
-                <a href={socialUrls.instagram} target="_blank" rel="noreferrer" className="social-button instagram">
+                <a href={socialUrls.instagram} target="_blank" rel="noopener noreferrer" className="social-button instagram">
                     <FontAwesomeIcon className="fa" icon={faInstagram} size='3x'/>
                 </a>
-                <a href={socialUrls.linkedin} target="_blank" rel="noreferrer" className="social-button linkedin">
+                <a href={socialUrls.linkedin} target="_blank" rel="noopener noreferrer" className="social-button linkedin">
                     <FontAwesomeIcon className="fa" icon={faLinkedin} size='3x'/>
                 </a>
-                <a href={socialUrls.github} target="_blank" rel="noreferrer" className="social-button github">
+                <a href={socialUrls.github} target="_blank" rel="noopener noreferrer" className="social-button github">
                     <FontAwesomeIcon className="fa" icon={faGithub} size='3x'/>
                 </a>
-                <a href={socialUrls.scholar} target="_blank" rel="noreferrer" className="social-button scholar">
+                <a href={socialUrls.scholar} target="_blank" rel="noopener noreferrer" className="social-button scholar">
                     <img src={GoogleScholar} alt='Google Scholar'/>
                 </a>
-                <a href={socialUrls.mail} target="_blank" rel="noreferrer" className="social-button mail">
+                <a href={socialUrls.mail} target="_blank" rel="noopener noreferrer" className="social-button mail">
                     <img src={Outlook} alt='Outlook'/>
                 </a>
             </div>
