@@ -22,7 +22,7 @@ function App() {
                         enable: true
                     },
                 }}
-                style={{opacity: "0.1"}}
+                style={{opacity: "0.3"}}
                 params={{
                     fpsLimit: 60,
 
