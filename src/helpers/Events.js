@@ -1,4 +1,5 @@
 
+
 function handleNavClick(event) {
     document.querySelectorAll('.link').forEach((item) => item.classList.remove('active'))
     event.currentTarget.classList.add('active');
@@ -21,5 +22,13 @@ function handleFormSubmit(event) {
     console.log("Button Clicked");
     console.log(event.currentTarget);
 }
+
+
+// window.onresize = function() {
+//
+//     setTimeout(function() {
+//         particles.style.display = 'block'
+//     }, 100);
+// ;}
 
 export {handleNavClick,handleHamburgerClick, handleFormSubmit};

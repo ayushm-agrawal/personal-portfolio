@@ -10,23 +10,9 @@
     color: #f6a231;
 }
 
-.form {
-    display: flex;
-    justify-content: center;
-}
-
-.form form input {
-    padding: 5%;
-    width: 250px;
-    margin-bottom: 10%;
-}
-
-.textfield__label {
-    font-weight: 600 !important;
-    color: white !important;
-}
 
 .contact-form{
+    color: black;
     background-color: #f6a231;
     display: inline-block;
     border-radius: 10px;

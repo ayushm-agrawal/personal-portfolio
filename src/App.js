@@ -1,8 +1,9 @@
 import './App.css';
 import Navbar from "./components/Navbar";
 import React from "react";
+import Home from "./components/Home";
 import About from "./components/About";
-import {HashRouter, Navigate, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import Research from "./components/Research";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
@@ -12,7 +13,6 @@ import NotFoundPage from "./components/NotFoundPage";
 
 
 function App() {
-
   return (
         <div className="App">
             <Particles
@@ -22,7 +22,7 @@ function App() {
                         enable: true
                     },
                 }}
-                style={{opacity: "0.3"}}
+                style={{opacity: "0.1"}}
                 params={{
                     fpsLimit: 60,
 
@@ -44,20 +44,15 @@ function App() {
             <HashRouter>
                 <Navbar/>
                 <Routes>
-                        <Route path="/" element={<Navigate to="/about" />}/>
-                        <Route path="/about" element={<About />} />
-                        <Route path="/research" element={<Research />} />
-                        <Route path="/contact" element={<Contact />} />
-                        <Route path="/blog" element={<Blog/>} />
+                        <Route exact path="/" element={<Home/>}/>
+                        <Route exact path="/about" element={<About />} />
+                        <Route exact path="/research" element={<Research />} />
+                        <Route exact path="/contact" element={<Contact />} />
+                        <Route exact path="/blog" element={<Blog/>} />
                         <Route component={NotFoundPage} />
                 </Routes>
             </HashRouter>
-
-            {/*<About/>*/}
-            {/*<ParticlesBg color="#ffffff" type="cobweb" bg={true} />*/}
-
         </div>
-
   );
 }
 

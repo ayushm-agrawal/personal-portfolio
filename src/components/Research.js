@@ -7,7 +7,6 @@ import publications from "../helpers/publications.json"
 class Research extends Component {
     render() {
         const data = publications;
-        console.log(data)
         return (
             <div className='research'>
                 <div className='research-areas'>

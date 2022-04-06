@@ -24,8 +24,8 @@ class Publication extends Component {
                     </div>
                     <p><span>Authors: </span>{this.props.authors}</p>
                     <p><span>Published: </span>{this.props.published_date}</p>
-                    <p><span>Conference: </span>{this.props.conference}</p>
-                    <p><span>Publisher: </span>{this.props.publisher}</p>
+                    <p style={{display: this.props.conference === "" ? 'none': 'block'}}><span>Conference: </span>{this.props.conference}</p>
+                    <p style={{display: this.props.publisher === "" ? 'none': 'block'}}><span>Publisher: </span>{this.props.publisher}</p>
 
                 </div>
                 <img src={imgSrc} alt={this.props.affiliation}/>
