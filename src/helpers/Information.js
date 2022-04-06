@@ -2,6 +2,9 @@ import UniversityLogo from "../resources/university-of-nebraska.png"
 import ManifoldLogo from "../resources/MCT.png"
 import OpenMinedLogo from "../resources/openmined.png"
 import React from "react"
+import Climbing1 from "../resources/videos/climbing_1.mp4"
+import Climbing2 from "../resources/videos/climbing_2.mp4"
+import Climbing3 from "../resources/videos/climbing_3.mp4"
 
 const researchAreasOfInterest = 'Computer Vision, Interpretability, Natural Language Processing, Fundamental Machine Learning';
 
@@ -19,9 +22,11 @@ const socialUrls = {
     "mail": "mailto:ayushmagrawal@outlook.com?subject=Hi, Let's Connect!"
 }
 
-const aboutDescription = "I am a full-time Software Engineer at University of Nebraska developing applications in Spring Framework and ReactJS. While I develop efficient applications from 9 to 5, I spend my after work hours as an independent researcher working on problems related to Computer Vision and Interpretability. Over the past two years, I have grown a lot as a developer and researcher, and have published two workshop papers at NIPS 2020. ";
 
 const contactCollaboration = "I am open, and looking to collaborate on projects!"
 
+const aboutHobbiesVideos = [Climbing1, Climbing2, Climbing3]
 
-export {homeExperience, researchAreasOfInterest, socialUrls, contactCollaboration, aboutDescription}
+const aboutHobbiesDesc = "I have recently gotten into bouldering and thorougly enjoy the sport. I include this sport in my daily training regime and just to hangout with friends."
+
+export {homeExperience, researchAreasOfInterest, socialUrls, contactCollaboration, aboutHobbiesVideos, aboutHobbiesDesc}

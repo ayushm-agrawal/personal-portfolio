@@ -15,14 +15,73 @@
     width: 100%;
 }
 
-.about-description p{
+.about p{
     font-size: larger;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.about-hobbies p {
+    color: white;
 }
 
 .about-description span {
     font-weight: bold;
     text-decoration: underline;
 
+}
+
+.video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
+    height: 10%;
+    width: 13%;
+    border: 2px solid ;
+    border-image: linear-gradient(to right, grey 25%, rgb(246, 162, 49) 25%, rgb(246, 162, 49) 100%,grey 100%, grey 75%, grey 75%) 5;
+    padding-top: 22% !important;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-hobbies {
+    text-align: center;
+}
+
+.about-hobbies h1 {
+    color: #f6a231;
+}
+
+@media only screen and (max-width: 1620px) {
+    .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
+        width: 30%;
+        padding-top: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .videos {
+        /*display: block;*/
+        padding-bottom: 10% !important;
+        display: flex;
+        padding-bottom: 10% !important;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-content: stretch;
+        align-items: center;
+    }
+
+    .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
+        margin-bottom: 2%;
+        width: 70%;
+        padding-top: 92% !important;
+    }
 }
