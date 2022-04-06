@@ -31,18 +31,21 @@
 
 }
 
-.video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
-    height: 10%;
-    width: 13%;
-    border: 2px solid ;
-    border-image: linear-gradient(to right, grey 25%, rgb(246, 162, 49) 25%, rgb(246, 162, 49) 100%,grey 100%, grey 75%, grey 75%) 5;
-    padding-top: 22% !important;
-}
-
 .videos {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+
+
+.react-player {
+    width: 12.6rem !important;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 3px solid;
+    border-image: linear-gradient(to right, grey 25%, rgb(246, 162, 49) 25%, rgb(246, 162, 49) 100%,grey 100%, grey 75%, grey 75%) 5;
+
 }
 
 .about-hobbies {
@@ -54,34 +57,27 @@
 }
 
 @media only screen and (max-width: 1620px) {
-    .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
-        width: 15%;
+    .react-player {
+        margin-bottom: 5%;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-
-    .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
-        width: 30%;
-        padding-top: 50% !important;
+    .react-player {
+        margin-bottom: 5%;
     }
 }
 
 @media only screen and (max-width: 670px) {
     .videos {
-        /*display: block;*/
-        padding-bottom: 10% !important;
         display: flex;
-        padding-bottom: 10% !important;
         justify-content: space-evenly;
         flex-direction: column;
         align-content: stretch;
         align-items: center;
     }
-
-    .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
-        margin-bottom: 2%;
-        width: 70%;
-        padding-top: 92% !important;
+    .react-player {
+        margin-bottom: 5%;
     }
+
 }
