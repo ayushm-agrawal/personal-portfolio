@@ -1,13 +1,15 @@
 import React, {Component} from "react";
 import "../styles/About.css";
-import {Player,
-    ControlBar,
-    ReplayControl,
-    ForwardControl,
-    CurrentTimeDisplay,
-    TimeDivider,
-    PlaybackRateMenuButton,
-    VolumeMenuButton} from "video-react"
+// import {Player,
+//     ControlBar,
+//     ReplayControl,
+//     ForwardControl,
+//     CurrentTimeDisplay,
+//     TimeDivider,
+//     PlaybackRateMenuButton,
+//     VolumeMenuButton} from "video-react"
+
+import ReactPlayer from "react-player";
 import {aboutHobbiesVideos, aboutHobbiesDesc} from "../helpers/Information";
 
 class About extends Component {
@@ -26,17 +28,16 @@ class About extends Component {
                     <div className="videos">
                         {aboutHobbiesVideos.map(videoItem => {
                             return(
-                                <Player
-                                    className="video-player"
-                                    muted={true}
-                                    playsInline
-                                    autoPlay
-                                    src={videoItem}
-                                >
-                                    <ControlBar>
-                                        <VolumeMenuButton disabled />
-                                    </ControlBar>
-                                </Player>
+                                <ReactPlayer
+                                    className="react-player"
+                                    playing={true}
+                                    loop={true}
+                                    volume={0}
+                                    playsinline
+                                    muted
+                                    controls={false}
+                                    url={videoItem}
+                                />
                             )
                         })}
 
