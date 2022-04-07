@@ -1,7 +1,6 @@
 import UniversityLogo from "../resources/university-of-nebraska.png"
 import ManifoldLogo from "../resources/MCT.png"
 import OpenMinedLogo from "../resources/openmined.png"
-import React from "react"
 import Climbing1 from "../resources/videos/climbing_1.mp4"
 import Climbing2 from "../resources/videos/climbing_2.mp4"
 import Climbing3 from "../resources/videos/climbing_3.mp4"

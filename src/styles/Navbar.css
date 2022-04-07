@@ -2,7 +2,6 @@
     background: rgba(128,128,128, 0.4);
     height: 3.5rem;
     width: 100%;
-    /*display: block;*/
     position: sticky;
 }
 
@@ -16,6 +15,10 @@
     padding-left: 10px;
     padding-top: 5px;
     min-width: 40px;
+}
+
+.navbar-left:hover {
+    cursor: pointer;
 }
 
 .navbar-name {

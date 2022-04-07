@@ -49,7 +49,7 @@ function App() {
                         <Route exact path="/research" element={<Research />} />
                         <Route exact path="/contact" element={<Contact />} />
                         <Route exact path="/blog" element={<Blog/>} />
-                        <Route component={NotFoundPage} />
+                        <Route path="*" element={<NotFoundPage/>} />
                 </Routes>
             </HashRouter>
         </div>
