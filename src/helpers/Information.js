@@ -26,6 +26,6 @@ const contactCollaboration = "I am open, and looking to collaborate on projects!
 
 const aboutHobbiesVideos = [Climbing1, Climbing2, Climbing3]
 
-const aboutHobbiesDesc = "I have recently gotten into bouldering and thorougly enjoy the sport. I include this sport in my daily training regime and just to hangout with friends."
+const aboutHobbiesDesc = "Recently, I have gotten into bouldering and thorougly enjoy the sport. I include this sport in my daily training regime and just to hangout with friends."
 
 export {homeExperience, researchAreasOfInterest, socialUrls, contactCollaboration, aboutHobbiesVideos, aboutHobbiesDesc}
