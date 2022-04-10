@@ -26,18 +26,21 @@ class About extends Component {
                     <h1>Hobbies and Interests</h1>
                     <p>{aboutHobbiesDesc}</p>
                     <div className="videos">
-                        {aboutHobbiesVideos.map(videoItem => {
+                        {aboutHobbiesVideos.map((videoItem, index) => {
                             return(
-                                <ReactPlayer
-                                    className="react-player"
-                                    playing={true}
-                                    loop={true}
-                                    volume={0}
-                                    playsinline
-                                    muted
-                                    controls={false}
-                                    url={videoItem}
-                                />
+                                <div key={index}>
+
+                                    <ReactPlayer
+                                        className="react-player"
+                                        playing={true}
+                                        loop={true}
+                                        volume={0}
+                                        playsinline
+                                        muted
+                                        controls={false}
+                                        url={videoItem}
+                                    />
+                                </div>
                             )
                         })}
 

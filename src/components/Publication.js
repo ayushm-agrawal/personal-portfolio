@@ -7,8 +7,10 @@ class Publication extends Component {
 
     render() {
         let imgSrc = OpenMined;
+        let imgLink = "https://www.openmined.org/";
         if (this.props.affiliation === "Manifold") {
             imgSrc = ManifoldComputing;
+            imgLink = "https://manifoldcomputing.com/";
         }
 
         return (
@@ -28,7 +30,7 @@ class Publication extends Component {
                     <p style={{display: this.props.publisher === "" ? 'none': 'block'}}><span>Publisher: </span>{this.props.publisher}</p>
 
                 </div>
-                <img src={imgSrc} alt={this.props.affiliation}/>
+                <img src={imgSrc} alt={this.props.affiliation} onClick={() => window.open(imgLink)}/>
             </div>
 
         )

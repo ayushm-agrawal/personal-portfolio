@@ -20,7 +20,7 @@ function handleHamburgerClick() {
     if (navItems.style.display === 'none') {
         bar.style.display = 'none';
         cross.style.display = 'block';
-        navItems.style.display = 'unset';
+        navItems.style.display = 'block';
     }
     else {
         bar.style.display = 'block';

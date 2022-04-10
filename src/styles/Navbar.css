@@ -2,7 +2,7 @@
     background: rgba(128,128,128, 0.4);
     height: 3.5rem;
     width: 100%;
-    position: sticky;
+    position: inherit;
 }
 
 .navbar-left * {
@@ -97,6 +97,7 @@
 
     .nav-item-mobile{
         position: absolute;
+        z-index: 1;
         right: 0;
         margin-top: 3.5rem;
         width: 30%;
@@ -105,7 +106,7 @@
         -webkit-animation-delay: 3.5s;
         -o-animation-delay: 3.5s;
         animation-delay: 3.5s;
-        background-color: rgba(255,255,255,0.9);
+        background-color: rgba(255,255,255,1);
 
     }
 

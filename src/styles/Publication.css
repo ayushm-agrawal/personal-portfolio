@@ -37,6 +37,10 @@
     right: 0;
 }
 
+.card img:hover {
+    transform: scale(1.2);
+}
+
 .information span {
     font-weight: bold;
     color: #f6a231;

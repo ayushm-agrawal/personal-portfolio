@@ -17,18 +17,20 @@ class Research extends Component {
                 <div className='research-publications'>
                     <h1>Publications</h1>
                     <div className='card-container'>
-                        {data.map(pubItem => {
+                        {data.map(pubItem=> {
                             return (
-                                <Publication
-                                    keyVal={pubItem.key}
-                                    name={pubItem.name}
-                                    authors={pubItem.authors}
-                                    published_date={pubItem.published_date}
-                                    conference={pubItem.conference}
-                                    publisher={pubItem.publisher}
-                                    affiliation={pubItem.affiliation}
-                                    url={pubItem.url}
-                                />
+                                <div key={pubItem.key} >
+                                    <Publication
+                                        keyVal={pubItem.key}
+                                        name={pubItem.name}
+                                        authors={pubItem.authors}
+                                        published_date={pubItem.published_date}
+                                        conference={pubItem.conference}
+                                        publisher={pubItem.publisher}
+                                        affiliation={pubItem.affiliation}
+                                        url={pubItem.url}
+                                    />
+                                </div>
                             )
                         })}
                     </div>
