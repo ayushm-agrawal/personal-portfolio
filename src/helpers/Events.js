@@ -1,4 +1,4 @@
-// import {useHistory} from "react-router-dom"
+import AyushManishAgr from "../resources/Ayush_Manish_Agrawal_22.pdf";
 
 function handleNavClick(event) {
     const bar = document.getElementsByClassName('bars')[0];
@@ -30,10 +30,35 @@ function handleHamburgerClick() {
 
 }
 
-function handleBrandClick() {
-    // const history = useHistory();
-    // history.push("/")
-    console.log("Click")
+function handleResumeDownload() {
+    fetch(AyushManishAgr, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/pdf',
+        },
+    })
+        .then((response) => response.blob())
+        .then((blob) => {
+            // Create blob link to download
+            const url = window.URL.createObjectURL(
+                new Blob([blob]),
+            );
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute(
+                'download',
+                `Ayush_Manish_Agrawal_Resume.pdf`,
+            );
+
+            // Append to html link element page
+            document.body.appendChild(link);
+
+            // Start download
+            link.click();
+
+            // Clean up and remove the link
+            link.parentNode.removeChild(link);
+        });
 }
 
 function handleFormSubmit(event) {
@@ -41,4 +66,4 @@ function handleFormSubmit(event) {
     console.log(event.currentTarget);
 }
 
-export {handleNavClick,handleHamburgerClick, handleFormSubmit, handleBrandClick};
+export {handleNavClick,handleHamburgerClick, handleFormSubmit, handleResumeDownload};

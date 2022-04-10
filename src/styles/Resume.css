@@ -1,0 +1,64 @@
+.resume {
+    background-color:  rgba(128,128,128, 0.2);
+    margin: 2%;
+    padding: 2%;
+    transition: all 1s ease-in;
+}
+
+.resume-download {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-right: 1%;
+    align-items: center;
+    background-color: #f6a231;
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: none;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.resume-download:hover {
+    box-shadow: 6px 0 21px -17px black, 2px 6px 9px -5px black;
+    cursor: pointer;
+}
+
+.resume-download p {
+    font-weight: bold;
+}
+
+.resume-download-fa {
+    margin-right: 10px;
+}
+
+.resume-display {
+    display: -webkit-inline-flex;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .resume-download {
+        margin-bottom: 3%;
+    }
+
+    .react-pdf__Page__canvas {
+        width: 92vw !important;
+        height: auto !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .resume-download p {
+        display: none;
+    }
+
+    .resume-download {
+        border-radius: 50%;
+        padding: 4%;
+    }
+
+    .resume-download-fa {
+        margin-right: 0;
+    }
+}

@@ -20,14 +20,15 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: #f6a231;
     padding-left: 5%;
     padding-right: 5%;
+    color: white;
     border: none;
     border-radius: 100px 100px 100px 100px;
 }
 
 .home-button:hover {
-    box-shadow: 6px 0 21px -17px white, 2px 6px 9px -5px white;
+    box-shadow: 6px 0 21px -17px black, 2px 6px 9px -5px black;
     cursor: pointer;
 }

@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Blog from "./components/Blog";
 import Particles from "react-tsparticles";
 import NotFoundPage from "./components/NotFoundPage";
+import Resume from "./components/Resume";
 
 
 
@@ -49,6 +50,7 @@ function App() {
                         <Route exact path="/research" element={<Research />} />
                         <Route exact path="/contact" element={<Contact />} />
                         <Route exact path="/blog" element={<Blog/>} />
+                        <Route exact path="/resume" element={<Resume />}/>
                         <Route path="*" element={<NotFoundPage/>} />
                 </Routes>
             </HashRouter>
