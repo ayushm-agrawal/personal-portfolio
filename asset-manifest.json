@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ede4e06.css",
-    "main.js": "/static/js/main.841917c6.js",
+    "main.css": "/static/css/main.47bf03b6.css",
+    "main.js": "/static/js/main.9f990fa7.js",
     "static/js/415.3a46825b.chunk.js": "/static/js/415.3a46825b.chunk.js",
     "static/js/787.acd864f7.chunk.js": "/static/js/787.acd864f7.chunk.js",
     "static/media/climbing_3.mp4": "/static/media/climbing_3.9df77ac655e09c165180.mp4",
@@ -18,13 +18,13 @@
     "static/media/ayush-thinking.jpeg": "/static/media/ayush-thinking.2fe7e298ba5ca1e7fadc.jpeg",
     "index.html": "/index.html",
     "static/media/google-scholar.svg": "/static/media/google-scholar.77a11d106cc02cc2562625139f84cb0e.svg",
-    "main.1ede4e06.css.map": "/static/css/main.1ede4e06.css.map",
-    "main.841917c6.js.map": "/static/js/main.841917c6.js.map",
+    "main.47bf03b6.css.map": "/static/css/main.47bf03b6.css.map",
+    "main.9f990fa7.js.map": "/static/js/main.9f990fa7.js.map",
     "415.3a46825b.chunk.js.map": "/static/js/415.3a46825b.chunk.js.map",
     "787.acd864f7.chunk.js.map": "/static/js/787.acd864f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ede4e06.css",
-    "static/js/main.841917c6.js"
+    "static/css/main.47bf03b6.css",
+    "static/js/main.9f990fa7.js"
   ]
 }
