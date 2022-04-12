@@ -61,9 +61,21 @@ function handleResumeDownload() {
         });
 }
 
+function handleScroll(){
+    const scrollTop = document.getElementsByClassName('App')[0].scrollTop;
+    const navbar = document.getElementsByClassName('navbar')[0];
+    console.log(scrollTop)
+    if (scrollTop !== 0) {
+        navbar.classList.add('scroll');
+    }
+    else {
+        navbar.classList.remove('scroll');
+    }
+}
+
 function handleFormSubmit(event) {
     console.log("Button Clicked");
     console.log(event.currentTarget);
 }
 
-export {handleNavClick,handleHamburgerClick, handleFormSubmit, handleResumeDownload};
+export {handleNavClick,handleHamburgerClick, handleFormSubmit, handleResumeDownload, handleScroll};

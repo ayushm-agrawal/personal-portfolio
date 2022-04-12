@@ -1,14 +1,5 @@
 import React, {Component} from "react";
 import "../styles/About.css";
-// import {Player,
-//     ControlBar,
-//     ReplayControl,
-//     ForwardControl,
-//     CurrentTimeDisplay,
-//     TimeDivider,
-//     PlaybackRateMenuButton,
-//     VolumeMenuButton} from "video-react"
-
 import ReactPlayer from "react-player";
 import {aboutHobbiesVideos, aboutHobbiesDesc} from "../helpers/Information";
 
@@ -34,7 +25,6 @@ class About extends Component {
                                         className="react-player"
                                         playing={true}
                                         loop={true}
-                                        volume={0}
                                         playsinline
                                         muted
                                         controls={false}

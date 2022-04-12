@@ -10,12 +10,13 @@ import Blog from "./components/Blog";
 import Particles from "react-tsparticles";
 import NotFoundPage from "./components/NotFoundPage";
 import Resume from "./components/Resume";
+import {handleScroll} from "./helpers/Events";
 
 
 
 function App() {
   return (
-        <div className="App">
+        <div className="App"  onScroll={handleScroll}>
             <Particles
                 canvasClassName="particles"
                 options={{
@@ -44,15 +45,19 @@ function App() {
             />
             <HashRouter>
                 <Navbar/>
-                <Routes>
-                        <Route exact path="/" element={<Home/>}/>
-                        <Route exact path="/about" element={<About />} />
-                        <Route exact path="/research" element={<Research />} />
-                        <Route exact path="/contact" element={<Contact />} />
-                        <Route exact path="/blog" element={<Blog/>} />
-                        <Route exact path="/resume" element={<Resume />}/>
-                        <Route path="*" element={<NotFoundPage/>} />
-                </Routes>
+                <br/>
+                <br/>
+                <div className='app-routes'>
+                    <Routes>
+                            <Route exact path="/" element={<Home/>}/>
+                            <Route exact path="/about" element={<About />} />
+                            <Route exact path="/research" element={<Research />} />
+                            <Route exact path="/contact" element={<Contact />} />
+                            <Route exact path="/blog" element={<Blog/>} />
+                            <Route exact path="/resume" element={<Resume />}/>
+                            <Route path="*" element={<NotFoundPage/>} />
+                    </Routes>
+                </div>
             </HashRouter>
         </div>
   );

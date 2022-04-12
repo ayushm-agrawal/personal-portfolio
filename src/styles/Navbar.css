@@ -2,7 +2,13 @@
     background: rgba(128,128,128, 0.4);
     height: 3.5rem;
     width: 100%;
-    position: inherit;
+    position: fixed;
+    z-index: 10;
+}
+
+.scroll {
+    background: rgb(103, 103, 103);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
 }
 
 .navbar-left * {

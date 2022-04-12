@@ -2,11 +2,20 @@
   background-color: #171515;
   text-align: center;
   overflow: auto;
+  overflow-y: scroll;
   height: 100%;
+}
+
+.app-routes {
+  margin-top: 3%;
 }
 
 @media only screen and (max-width: 1000px) {
   #tsparticles {
     opacity: 0.2;
+  }
+
+  .app-routes {
+    margin-top: 10%;
   }
 }
