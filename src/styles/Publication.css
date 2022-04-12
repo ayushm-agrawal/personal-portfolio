@@ -57,7 +57,7 @@
     background-position: center center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1230px) {
     .card {
         flex-shrink: 0;
         width: 85vw;

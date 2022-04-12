@@ -5,7 +5,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   height: 100%;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
+}
+
+img {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 html {
