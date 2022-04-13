@@ -6,7 +6,7 @@
 }
 
 .resume-download {
-    float: right;
+    position: fixed;
     display: flex;
     flex-direction: row;
     margin-right: 1%;
@@ -36,10 +36,34 @@
     display: -webkit-inline-flex;
 }
 
+@media only screen and (max-width: 1000px) {
+    .resume-download p {
+        display: none;
+    }
+
+    .resume-download {
+        border-radius: 50%;
+        padding: 2%;
+    }
+
+    .resume-download-fa {
+        margin-right: 0;
+    }
+}
 
 @media only screen and (max-width: 800px) {
     .resume-download {
+        position: inherit;
+        float: right;
         margin-bottom: 3%;
+        border-radius: 100px 100px 100px 100px;
+    }
+
+    .resume-download p {
+        display: inherit;
+    }
+    .resume-download-fa {
+        margin-right: 10px;
     }
 
     .react-pdf__Page__canvas {

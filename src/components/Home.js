@@ -19,7 +19,7 @@ function Home(){
     return (
         <div className='home'>
             <div className='home-image'>
-                <img src={randomImage} alt="Ayush" style={isLoading ? {display: 'none'}: {}}/>
+                <img src={randomImage} alt="Ayush" style={isLoading ? {filter: 'grayscale(100%)'}: {}}/>
             </div>
 
             <div className='home-intro'>

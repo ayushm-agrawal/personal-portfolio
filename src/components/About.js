@@ -30,8 +30,9 @@ function About() {
                                     className="react-player"
                                     playing={true}
                                     loop={true}
+                                    volume={0}
                                     playsinline
-                                    muted
+                                    muted={true}
                                     controls={false}
                                     url={videoItem}
                                     style={isLoading ? {display: 'none'}: {}}
