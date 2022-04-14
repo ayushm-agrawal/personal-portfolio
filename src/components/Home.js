@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import '../styles/Home.css'
 import {getRandomHeaderImage, getRandomQuote, experienceDisplay} from "../helpers/RandomFunctions";
 import {homeExperience} from "../helpers/Information"
@@ -10,16 +10,10 @@ function Home(){
     const randomQuoteString = randomQuote[0]
     const randomQuoteAuthor = randomQuote[1]
 
-    const [isLoading, setIsLoading]  = useState(true)
-
-    useEffect(() => {
-        setIsLoading(false)
-    }, [])
-
     return (
         <div className='home'>
             <div className='home-image'>
-                <img src={randomImage} alt="Ayush" style={isLoading ? {filter: 'grayscale(100%)'}: {}}/>
+                <img src={randomImage} alt="Ayush"/>
             </div>
 
             <div className='home-intro'>

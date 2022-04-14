@@ -8,15 +8,6 @@ body {
   transition: all 0.5s ease;
 }
 
-img {
-  animation: fadeIn 1s;
-}
-
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
 html {
   height: 100%;
   overflow-y: scroll;
