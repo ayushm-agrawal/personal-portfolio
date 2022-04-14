@@ -8,6 +8,8 @@
 
 .app-routes {
   margin-top: 3%;
+  position: relative;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 1000px) {

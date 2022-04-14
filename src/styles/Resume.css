@@ -3,6 +3,7 @@
     margin: 2%;
     padding: 2%;
     transition: all 1s ease-in;
+    overflow-x: hidden;
 }
 
 .resume-download {
