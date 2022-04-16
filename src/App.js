@@ -6,7 +6,7 @@ import About from "./components/About";
 import {HashRouter, Route, Routes} from "react-router-dom";
 import Research from "./components/Research";
 import Contact from "./components/Contact";
-import Blog from "./components/Blog";
+import Blog from "./components/blog/Blog";
 import Particles from "react-tsparticles";
 import NotFoundPage from "./components/NotFoundPage";
 import Resume from "./components/Resume";
@@ -14,7 +14,7 @@ import {handleScroll} from "./helpers/Events";
 
 
 
-function App() {
+function App(props) {
   return (
         <div className="App"  onScroll={handleScroll}>
             <Particles

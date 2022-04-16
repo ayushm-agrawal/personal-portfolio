@@ -1,9 +1,10 @@
 import React, {useState} from "react";
-import '../styles/Blog.css';
+import '../../styles/blog/Blog.css';
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter';
 import {materialDark as CodeStyle} from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Markdown from "markdown-to-jsx";
-import BlogItem from "../helpers/BlogText.md";
+import BlogItem from "../../helpers/BlogText.md";
+
 
 function Blog() {
     const CodeBlock = ({className, children}) => {
