@@ -5,4 +5,11 @@
     padding: 2%;
     transition: all 1s ease-in;
     text-align: justify;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blog-middle {
+    border-left: 1px solid ghostwhite;
+    border-right: 1px solid ghostwhite;
 }
