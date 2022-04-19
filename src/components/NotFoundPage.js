@@ -12,7 +12,7 @@ function NotFoundPage() {
             <img className="not-found-img" src={NotFound} alt="Not Found 404"/>
             <div className="home-button" onClick={() => navigate("/")}>
                 <h1 style={{textAlign:"center"}}>
-                    <Link to="/about">Go to Home </Link>
+                    <Link to="/home">Go to Home </Link>
                 </h1>
             </div>
         </div>

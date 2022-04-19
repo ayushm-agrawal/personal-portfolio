@@ -64,7 +64,6 @@ function handleResumeDownload() {
 function handleScroll(){
     const scrollTop = document.getElementsByClassName('App')[0].scrollTop;
     const navbar = document.getElementsByClassName('navbar')[0];
-    console.log(scrollTop)
     if (scrollTop !== 0) {
         navbar.classList.add('scroll');
     }
