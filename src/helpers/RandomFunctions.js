@@ -1,9 +1,10 @@
 import AyushColor from "../resources/ayush-color.jpeg"
 import AyushThinking from "../resources/ayush-thinking.jpeg"
+import AyushNew from "../resources/ayush-new.jpg"
 import React from "react";
 
 function getRandomHeaderImage(){
-    const imagesArray = [AyushColor, AyushThinking];
+    const imagesArray = [AyushColor, AyushThinking, AyushNew];
     return getRandom(imagesArray)
 }
 

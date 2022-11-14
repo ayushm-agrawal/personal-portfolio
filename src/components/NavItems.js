@@ -5,7 +5,7 @@ import "../styles/NavItem.css";
 export default function NavItems(props) {
     return (
         <div>
-            <Link className="link" onClick={props.handleClick} to="/blog">Blog</Link>
+            {/* <Link className="link" onClick={props.handleClick} to="/blog">Blog</Link> */}
             <Link className="link" onClick={props.handleClick} to="/resume" replace>Resume</Link>
             <Link className="link" onClick={props.handleClick} to="/contact" replace>Contact</Link>
             <Link className="link" onClick={props.handleClick} to="/research" replace>Research</Link>

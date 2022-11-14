@@ -1,5 +1,6 @@
 import UniversityLogo from "../resources/university-of-nebraska.png"
 import ManifoldLogo from "../resources/MCT.png"
+import MicrosoftLogo from "../resources/microsoft.png"
 import OpenMinedLogo from "../resources/openmined.png"
 import Climbing1 from "../resources/videos/climbing_1.mp4"
 import Climbing2 from "../resources/videos/climbing_2.mp4"
@@ -8,9 +9,10 @@ import Climbing3 from "../resources/videos/climbing_3.mp4"
 const researchAreasOfInterest = 'Computer Vision, Interpretability, Natural Language Processing, Fundamental Machine Learning';
 
 const homeExperience = [
-    ["1", UniversityLogo, 'University of Nebraska', 'Current','#90e190', 'Software Developer at University of Nebraska'],
-    ["2", ManifoldLogo, 'Manifold Computing', 'Current','#90e190', 'Independent Researcher at Manifold Computing'],
-    ["3", OpenMinedLogo, 'OpenMined', 'Previous','crimson', 'Independent Research Engineer at OpenMined']]
+    ["1", MicrosoftLogo, 'Microsoft', 'Current', '#90e190', 'Software Engineer at Microsoft'],
+    ["2", UniversityLogo, 'University of Nebraska', 'Previous','crimson', 'Software Developer at University of Nebraska'],
+    ["3", ManifoldLogo, 'Manifold Computing', 'Previous','crimson', 'Independent Researcher at Manifold Computing'],
+    ["4", OpenMinedLogo, 'OpenMined', 'Previous','crimson', 'Independent Research Engineer at OpenMined']]
 
 const socialUrls = {
     "twitter": "https://twitter.com/AyushMAgr",
