@@ -1,32 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.4c4f70e6.css",
-    "main.js": "/static/js/main.e96c1350.js",
+    "main.js": "/static/js/main.25fd980c.js",
     "static/js/415.3a46825b.chunk.js": "/static/js/415.3a46825b.chunk.js",
     "static/js/787.acd864f7.chunk.js": "/static/js/787.acd864f7.chunk.js",
     "static/media/climbing_3.mp4": "/static/media/climbing_3.9df77ac655e09c165180.mp4",
     "static/media/climbing_1.mp4": "/static/media/climbing_1.e8604c205a4078c914b4.mp4",
     "static/media/climbing_2.mp4": "/static/media/climbing_2.61688a8017a54b2423d3.mp4",
+    "static/media/ayush-new.jpg": "/static/media/ayush-new.fdecdfe2831062b29831.jpg",
     "static/media/ayush-color.jpeg": "/static/media/ayush-color.687da186ad20d0d7bba2.jpeg",
     "static/media/university-of-nebraska.png": "/static/media/university-of-nebraska.8854ff86737786b06ccb.png",
     "static/media/Ayush_Manish_Agrawal_22.pdf": "/static/media/Ayush_Manish_Agrawal_22.d1debfbdeda18bb57d2f.pdf",
-    "static/media/microsoft.png": "/static/media/microsoft.9f85efeedf360e2195e8.png",
     "static/media/404.gif": "/static/media/404.ef269a1054bc08e1291e.gif",
     "static/media/openmined.png": "/static/media/openmined.17082af284cbad136d54.png",
     "static/media/outlook.png": "/static/media/outlook.6f48b8a7308e9c533db0.png",
     "static/media/brand-transparent.png": "/static/media/brand-transparent.31b1dbc6a10991df86d5.png",
     "static/media/MCT.png": "/static/media/MCT.fbe512e16cf86577517c.png",
+    "static/media/microsoft.png": "/static/media/microsoft.b89c400adb88cbbf25f1.png",
     "static/media/ayush-thinking.jpeg": "/static/media/ayush-thinking.2fe7e298ba5ca1e7fadc.jpeg",
     "static/media/BlogText.md": "/static/media/BlogText.0b965c6d6189830cfaa6.md",
     "index.html": "/index.html",
     "static/media/google-scholar.svg": "/static/media/google-scholar.77a11d106cc02cc2562625139f84cb0e.svg",
     "main.4c4f70e6.css.map": "/static/css/main.4c4f70e6.css.map",
-    "main.e96c1350.js.map": "/static/js/main.e96c1350.js.map",
+    "main.25fd980c.js.map": "/static/js/main.25fd980c.js.map",
     "415.3a46825b.chunk.js.map": "/static/js/415.3a46825b.chunk.js.map",
     "787.acd864f7.chunk.js.map": "/static/js/787.acd864f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c4f70e6.css",
-    "static/js/main.e96c1350.js"
+    "static/js/main.25fd980c.js"
   ]
 }
