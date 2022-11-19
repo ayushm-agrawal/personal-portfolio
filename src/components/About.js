@@ -13,8 +13,9 @@ function About() {
     return (
         <div className="about">
             <div className="about-description">
-                <p>I am a full-time <span>Software Engineer</span> at University of Nebraska developing applications in Spring Framework and ReactJS. </p>
-                <p>While I develop efficient applications from 9 to 5, I spend my after work hours as an <span>Independent Researcher</span> working on various problems in Artificial Intelligence.</p>
+                <p>I am a full-time <span>Software Engineer</span> at Microsoft working with the Azure Capacity Infrastructure Service team. </p>
+                <p>Within our team I will be working on our data pipeline and automating our Incident Management Root Cause Analysis</p>
+                <p>I spend my after work hours as an <span>Independent Researcher</span> working on various problems in Artificial Intelligence.</p>
                 <p> Over the past year, I have grown a lot as a developer and researcher, and have published various papers</p>
             </div>
             <hr/>
